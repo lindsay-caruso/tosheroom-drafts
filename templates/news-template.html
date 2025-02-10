@@ -6,27 +6,25 @@
   <title>News Article Template</title>
   <style>
     body { font-family: Arial, sans-serif; line-height: 1.6; }
+    .content { display: flex; margin-top: 20px; }
+    .image { width: 40%; max-width: 100%; }
+    .text { padding-left: 20px; flex: 1; }
     h1 { color: #333; }
-    .content { margin-top: 20px; }
-    .image { max-width: 100%; }
-    .date { color: #888; }
     .description { font-size: 1.2em; margin-top: 10px; }
     .cta { color: #007bff; text-decoration: none; }
   </style>
 </head>
 <body>
-
-  <h1>Title of the News Article</h1>
-  <p class="date">Published on: <span>February 9, 2025</span></p>
-
-  <img src="image-placeholder.jpg" alt="Image" class="image">
-
   <div class="content">
-    <p class="description">
-      Here’s a short description or excerpt of the article. You can write a brief intro here that catches the reader's attention.
-    </p>
-    <a href="#" class="cta">Read More</a>
+    <!-- Image on the left -->
+    <img src="image-placeholder.jpg" alt="Image" class="image">
+    
+    <!-- Text content on the right -->
+    <div class="text">
+      <h1>Title of the News Article</h1>
+      <p class="description">Here's a short description or excerpt of the article. You can write a brief intro here that catches the reader's attention.</p>
+      <a href="#" class="cta">Read More</a>
+    </div>
   </div>
-
 </body>
 </html>
