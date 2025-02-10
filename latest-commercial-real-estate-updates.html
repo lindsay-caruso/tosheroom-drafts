@@ -5,23 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latest Commercial Real Estate Market Updates</title>
     <style>
-        /* Style to match your branding or theme */
+        /* Body text styling - Large x-height, wider characters */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Amstelvar', sans-serif; 
+            line-height: 1.6;
+            font-size: 16px;
+            color: white;
             background-color: #333;
-            color: #fff;
             padding: 20px;
         }
+        
+        /* Headline styling - Tighter spacing, more refined */
         h1 {
-            font-size: 2em;
-            color: #fff;
+            font-family: 'Amstelvar', sans-serif; 
+            font-size: 2.5rem; /* Larger for headline */
+            color: white;
+            text-align: center;
         }
+        
+        h2 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            margin-top: 30px;
+        }
+
         .content {
-            margin-top: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        .content a {
-            color: #007BFF;
+
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
             text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .cta:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+        }
+
+        ul li a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Adjustments for smaller screens (mobile) */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .cta {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -29,12 +87,16 @@
 
     <h1>Latest Commercial Real Estate Market Updates</h1>
     <p>Welcome to the latest news in the commercial real estate world. Stay informed with our latest articles covering a variety of topics.</p>
+
     <div class="content">
+        <h2>Featured Articles</h2>
         <ul>
             <li><a href="post-link-1.html">Post Title 1: [Topic]</a></li>
             <li><a href="post-link-2.html">Post Title 2: [Topic]</a></li>
             <li><a href="post-link-3.html">Post Title 3: [Topic]</a></li>
         </ul>
+
+        <a href="#" class="cta">Read More</a>
     </div>
 
 </body>
