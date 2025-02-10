@@ -1,0 +1,69 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;  /* Dark background for your page */
+    color: #fff;  /* White text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #222;  /* Darker background for header */
+    color: #fff;  /* White text */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff;  /* Blue link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content section styles */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 40%;
+    max-width: 100%;
+  }
+  
+  .text {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #fff;  /* White headline color */
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .cta {
+    color: #007bff;  /* Blue for "Read More" links */
+    text-decoration: none;
+  }
+  
+  .cta:hover {
+    text-decoration: underline;
+  }
